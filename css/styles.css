@@ -1,0 +1,145 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accept-color: #2196f3;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #757575;
+}
+
+address {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.list {
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+        display: flex;
+        margin-right: auto;
+        align-items: center;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--black);
+    padding-right: 93px;
+}
+
+.logo span {
+    color: var(--accept-color);
+}
+
+.logo-footer {
+    color: var(--white);
+}
+
+.menu-link,
+.menu-contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.menu-list .current {
+    color: var(--accept-color);
+}
+.menu-contact-link {
+    color: var(--grey);
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-contact-link:hover,
+.menu-contact-link:focus {
+    color: var(--accept-color);
+}
+
+.footer {
+    background: #2f303a;
+}
+
+.adrress-item {
+    color: var(--white);
+}
+
+.adrress-contacts {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+}
+
+.call-to-activity {
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+.main-container {
+    padding: 200px 452px 280px;
+}
+
+.adrress {
+    padding: 0px;
+    list-style: none;
+}
+
+.list-item-container {
+    font-size: 0px;
+}
+
+
+.footer {
+    padding: 60px;
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+}
+
+.list-footer {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    list-style: none;
+}
+
+.adrress-item {
+margin-bottom: 9px;
+}
+
+.adrress-contacts:last-of-type {
+    margin-bottom: 0px;
+}

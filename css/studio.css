@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.hero {
+    background-color: black;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-top: 0;
+}
+
+.btn-main {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--accept-color);
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    color: var(--primary-text-color);
+}
+
+.team-profession {
+    font-size: 16px;
+    line-height: 1.187;
+}
+
+.box {
+    padding: 0px 15px;
+    max-width: 726px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-item {
+    padding: 32px;
+    display: flex;
+    justify-self: start;
+}
+
+.site-nav {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+
+.menu-item {
+    margin-right: 50px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.adrress {
+    display: flex;
+}
+
+.advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.item-icon {
+    width: 270px;
+    margin-right: 30px;
+}
+
+.item-icon:last-child {
+    margin-right: 0;
+}
+

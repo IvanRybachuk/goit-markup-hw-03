@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+}
+
+
+.btn {
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    padding: 0;
+    margin-right: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #f5f4fa;
+    border-radius: 4px;
+}
+
+
+
+
+.btn:hover,
+.btn:focus {
+    color: var(--white);
+    background-color: var(--accept-color);
+}
+
+.projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.projects-subtitle {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+
+.button-list {
+    margin-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.filter {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+/* content */
+.projects-list,
+.modern {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list-type-project {
+    margin-right: 30px;
+    width: 380px;
+}
+
+.list-tupe-project:nth-last-child(3n) {
+    margin-right: 0;
+}
