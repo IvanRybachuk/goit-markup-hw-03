@@ -7,6 +7,10 @@
     --grey: #757575;
 }
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 address {
     font-style: normal;
 }
