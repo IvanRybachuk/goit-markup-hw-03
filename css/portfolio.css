@@ -40,6 +40,10 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
+    margin-top: 20px;
+    margin-right: 24px;
+    margin-bottom: 4px;
+    margin-left: 24px;
 }
 
 .projects-subtitle {
@@ -48,6 +52,7 @@ body {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--grey);
+    margin:0 24px 20px
 }
 
 .button-list {
@@ -84,8 +89,11 @@ body {
 }
 
 .list-type-project {
+    border: 1px solid #EEEEEE;
     margin-right: 30px;
-    width: 380px;
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
 }
 
 .list-tupe-project:nth-last-child(3n) {
