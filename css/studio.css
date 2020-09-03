@@ -120,3 +120,6 @@ body {
     margin-right: 0;
 }
 
+.stylization {
+    background-color: var(--back-color);
+}

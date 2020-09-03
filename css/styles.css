@@ -5,6 +5,8 @@
     --white: #ffffff;
     --black: #000000;
     --grey: #757575;
+    --back-color: #F5F4FA;
+    --secondary-back-color: #E5E5E5;
 }
 
 .header {
