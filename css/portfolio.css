@@ -90,4 +90,5 @@ body {
 
 .list-tupe-project:nth-last-child(3n) {
     margin-right: 0;
+    margin-left: 0;
 }

@@ -30,6 +30,7 @@ body {
 }
 
 .hero-title {
+    width: 690px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.364;
