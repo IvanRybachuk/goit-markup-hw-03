@@ -52,7 +52,7 @@ body {
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--grey);
-    margin:0 24px 20px
+    margin: 0 24px 20px;
 }
 
 .button-list {
@@ -70,6 +70,7 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 /* content */
 .projects-list,
 .modern {
@@ -96,7 +97,10 @@ body {
     margin-bottom: 30px;
 }
 
-.list-tupe-project:nth-last-child(3n) {
-    margin-right: 0;
-    margin-left: 0;
+.list-type-project:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.list-type-project:nth-child(3n+3) {
+    margin-right: 0px;
 }

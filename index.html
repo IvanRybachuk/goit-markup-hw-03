@@ -16,19 +16,20 @@
 <body>
     <header class="header">
         <div class="container header-item">
-                <nav class="site-nav">
-                    <a href="./" class="logo"> <img src="./images/webstudio.svg" alt="Логотип" width: 145px;></a>
-                    <ul class="list menu-list">
-                        <li class="menu-item"><a href="./index.html" class="menu-link current">Студия</a></li>
-                        <li class="menu-item"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
-                        <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
-                    </ul>
-                </nav>
-                    <ul class="adrress">
-                        <li class="menu-item"><a href="mailto:info@devstudio.com" class="menu-contact-link">info@devstudio.com</a></li>
-                        <li class="menu-item"><a href="tel:+380961111111" class="menu-contact-link">+38 096 111 11 11</a></li>
-                    </ul>  
-            
+            <nav class="site-nav">
+                <a href="./" class="logo"> <img src="./images/webstudio.svg" alt="Логотип" width: 145px;></a>
+                <ul class="list menu-list">
+                    <li class="menu-item"><a href="./index.html" class="menu-link current">Студия</a></li>
+                    <li class="menu-item"><a href="./portfolio.html" class="menu-link">Портфолио</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="adrress">
+                <li class="menu-item"><a href="mailto:info@devstudio.com"
+                        class="menu-contact-link">info@devstudio.com</a></li>
+                <li class="menu-item"><a href="tel:+380961111111" class="menu-contact-link">+38 096 111 11 11</a></li>
+            </ul>
+
 
         </div>
     </header>
@@ -74,7 +75,7 @@
 
         </section>
         <!--What are we doing-->
-        <section class="advantages">
+        <section class="advantages-doing">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="list">
@@ -96,10 +97,12 @@
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="list">
-                    <li class="title-fon">
-                        <img src="./images/team/igor.jpg" alt="Игорь Демьяненко" width="270" />
-                        <h3 class="caption-text">Игорь Демьяненко</h3>
-                        <p class="team-profession">Product Designer</p>
+                    <li>
+                        <div class="title-fon"><img src="./images/team/igor.jpg" alt="Игорь Демьяненко" width="270" />
+                            <h3 class="caption-text">Игорь Демьяненко</h3>
+                            <p class="team-profession">Product Designer</p>
+                        </div>
+
                         <!-- <ul class="list">
                             <li>
                                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
@@ -123,10 +126,12 @@
                             </li>
                         </ul> -->
                     </li>
-                    <li class="title-fon">
-                        <img src="./images/team/olga.jpg" alt="Ольга Репина" width="270" />
-                        <h3 class="caption-text">Ольга Репина</h3>
-                        <p class="team-profession">Frontend Developer</p>
+                    <li>
+                        <div class="title-fon"><img src="./images/team/olga.jpg" alt="Ольга Репина" width="270" />
+                            <h3 class="caption-text">Ольга Репина</h3>
+                            <p class="team-profession">Frontend Developer</p>
+                        </div>
+
                         <!-- <ul class="list">
                             <li>
                                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
@@ -150,10 +155,12 @@
                             </li>
                         </ul> -->
                     </li>
-                    <li class="title-fon">
-                        <img src="./images/team/nikolay.jpg" alt="Николай Тарасов" width="270" />
-                        <h3 class="caption-text">Николай Тарасов</h3>
-                        <p class="team-profession">Marketing</p>
+                    <li>
+                        <div class="title-fon"><img src="./images/team/nikolay.jpg" alt="Николай Тарасов" width="270" />
+                            <h3 class="caption-text">Николай Тарасов</h3>
+                            <p class="team-profession">Marketing</p>
+                        </div>
+
                         <!-- <ul class="list">
                             <li>
                                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
@@ -177,10 +184,12 @@
                             </li>
                         </ul> -->
                     </li>
-                    <li class="title-fon">
-                        <img src="./images/team/mihail.jpg" alt="Михаил Ермаков" width="270" />
-                        <h3 class="caption-text">Михаил Ермаков</h3>
-                        <p class="team-profession">UI Designer</p>
+                    <li>
+                        <div class="title-fon"><img src="./images/team/mihail.jpg" alt="Михаил Ермаков" width="270" />
+                            <h3 class="caption-text">Михаил Ермаков</h3>
+                            <p class="team-profession">UI Designer</p>
+                        </div>
+
                         <!-- <ul class="list">
                             <li>
                                 <a href="#" target="_blank" rel="noopener noreferrer" aria-label="ссылка на Инстаграм">
@@ -241,7 +250,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-item">
-                <a href="./" class="logo-footer"> <img src="./images/webstudiofooter.svg" alt="Логотип" width: 145px;></a>
+                <a href="./" class="logo-footer"> <img src="./images/webstudiofooter.svg" alt="Логотип" width:
+                        145px;></a>
                 <address class="address">
                     <ul class="list-footer">
                         <li class="adrress-item">г. Киев, пр-т Леси Украинки, 26</li>
