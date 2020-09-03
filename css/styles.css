@@ -9,6 +9,16 @@
     --secondary-back-color: #E5E5E5;
 }
 
+* {
+    box-sizing: border-box
+}
+
+.img {
+    border-style: none;
+    display: block;
+    max-width: 100%;
+}
+
 .header {
     border-bottom: 1px solid #ECECEC;
 }
